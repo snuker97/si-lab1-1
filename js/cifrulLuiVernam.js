@@ -47,14 +47,14 @@ document.getElementById('user-text2').addEventListener('keyup', () => {
     }
 
     if (userText2.length) {
-        document.getElementsByTagName('label')[8].classList.add('active');
-        document.getElementsByTagName('label')[9].classList.add('active');
+        document.getElementsByTagName('label')[11].classList.add('active');
+        document.getElementsByTagName('label')[12].classList.add('active');
         document.getElementById('disabled2').value = generatedKeyWord;
         document.getElementById('disabled2-1').value = cryptWord;
     }
     else {
-        document.getElementsByTagName('label')[8].classList.remove('active');
-        document.getElementsByTagName('label')[9].classList.remove('active');
+        document.getElementsByTagName('label')[11].classList.remove('active');
+        document.getElementsByTagName('label')[12].classList.remove('active');
         document.getElementById('disabled2').value = '';
         document.getElementById('disabled2-1').value = '';
     }
